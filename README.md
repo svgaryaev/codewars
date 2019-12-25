@@ -20,6 +20,7 @@
 ## 6 kyu
 
 - [Convert string to camel case](https://github.com/svgaryaev/codewars/blob/master/6kyu/convert-string-to-camel-case/description.md) | [решение](https://github.com/svgaryaev/codewars/blob/master/6kyu/convert-string-to-camel-case/solution.js)
+- [Are they the "same"?](https://github.com/svgaryaev/codewars/blob/master/6kyu/are-they-the-same/description.md) | [решение](https://github.com/svgaryaev/codewars/blob/master/6kyu/are-they-the-same/solution.js)
 
 ## 7 kyu
 
