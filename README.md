@@ -10,7 +10,6 @@
 
 - [Defuse the bombs!](https://github.com/svgaryaev/codewars/blob/master/3kyu/defuse-the-bombs/description.md) | [решение](https://github.com/svgaryaev/codewars/blob/master/3kyu/defuse-the-bombs/solution.js)
 
-
 ## 4 kyu
 
 - [Large Factorials](https://github.com/svgaryaev/codewars/blob/master/4kyu/large-factorials/description.md) | [решение](https://github.com/svgaryaev/codewars/blob/master/4kyu/large-factorials/solution.js)
@@ -18,6 +17,10 @@
 - [parseInt() reloaded](https://github.com/svgaryaev/codewars/blob/master/4kyu/parseint-reloaded/description.md) | [решение](https://github.com/svgaryaev/codewars/blob/master/4kyu/parseint-reloaded/solution.js)
 - [Snail](https://github.com/svgaryaev/codewars/blob/master/4kyu/snail/description.md) | [решение](https://github.com/svgaryaev/codewars/blob/master/4kyu/snail/solution.js)
 
+## 6 kyu
+
+- [Convert string to camel case](https://github.com/svgaryaev/codewars/blob/master/6kyu/convert-string-to-camel-case/description.md) | [решение](https://github.com/svgaryaev/codewars/blob/master/6kyu/convert-string-to-camel-case/solution.js)
+
 ## 7 kyu
 
-- [Find the divisors!](https://github.com/svgaryaev/codewars/blob/master/4kyu/find-the-divisors/description.md) | [решение](https://github.com/svgaryaev/codewars/blob/master/4kyu/find-the-divisors/solution.js)
+- [Find the divisors!](https://github.com/svgaryaev/codewars/blob/master/7kyu/find-the-divisors/description.md) | [решение](https://github.com/svgaryaev/codewars/blob/master/7kyu/find-the-divisors/solution.js)
