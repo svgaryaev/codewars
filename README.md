@@ -4,6 +4,11 @@
 
 В файле решения задачи перечислены все варианты ее решения от последнего к первому. Предыдущие решения закомментированы. Зачем так, когда есть git история? Подумал, что так будет нагляднее.
 
+## 3 kyu
+
+- [Defuse the bombs!](https://github.com/svgaryaev/codewars/blob/master/3kyu/defuse-the-bombs/description.md) | [решение](https://github.com/svgaryaev/codewars/blob/master/3kyu/defuse-the-bombs/solution.js)
+
+
 ## 4 kyu
 
 - [Large Factorials](https://github.com/svgaryaev/codewars/blob/master/4kyu/large-factorials/description.md) | [решение](https://github.com/svgaryaev/codewars/blob/master/4kyu/large-factorials/solution.js)
