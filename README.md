@@ -1,6 +1,6 @@
 # Сборник решенных задач codewars
 
-![](https://www.codewars.com/users/svgaryaev/badges/micro)
+[![](https://www.codewars.com/users/svgaryaev/badges/micro)](https://www.codewars.com/users/svgaryaev)
 
 Пока что сборник представляет собой простой копипаст описания, решения и тестов с codewars. Никакого интерактива.
 
