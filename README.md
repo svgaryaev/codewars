@@ -31,6 +31,7 @@
 - [Convert string to camel case](https://github.com/svgaryaev/codewars/blob/master/6kyu/convert-string-to-camel-case.md)
 - [Are they the "same"?](https://github.com/svgaryaev/codewars/blob/master/6kyu/are-they-the-same.md)
 - [Tribonacci Sequence](https://github.com/svgaryaev/codewars/blob/master/6kyu/tribonacci-sequence.md)
+- [Count the smiley faces!](https://github.com/svgaryaev/codewars/blob/master/6kyu/count-the-smiley-faces.md)
 
 ## 7 kyu
 
