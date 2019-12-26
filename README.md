@@ -20,6 +20,7 @@
 - [Most frequently used words in a text](https://github.com/svgaryaev/codewars/blob/master/4kyu/most-frequently-used-words-in-a-text.md)
 - [parseInt() reloaded](https://github.com/svgaryaev/codewars/blob/master/4kyu/parseint-reloaded.md)
 - [Snail](https://github.com/svgaryaev/codewars/blob/master/4kyu/snail.md)
+- [Strip Comments](https://github.com/svgaryaev/codewars/blob/master/4kyu/strip-comments.md)
 
 ## 5 kyu
 
