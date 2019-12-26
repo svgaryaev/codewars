@@ -8,7 +8,7 @@
 
 ## 2 kyu
 
-- [Evaluate mathematical expression](https://github.com/svgaryaev/codewars/blob/master/3kyu/evaluate-mathematical-expression.md)
+- [Evaluate mathematical expression](https://github.com/svgaryaev/codewars/blob/master/2kyu/evaluate-mathematical-expression.md)
 
 ## 3 kyu
 
@@ -20,6 +20,10 @@
 - [Most frequently used words in a text](https://github.com/svgaryaev/codewars/blob/master/4kyu/most-frequently-used-words-in-a-text.md)
 - [parseInt() reloaded](https://github.com/svgaryaev/codewars/blob/master/4kyu/parseint-reloaded.md)
 - [Snail](https://github.com/svgaryaev/codewars/blob/master/4kyu/snail.md)
+
+## 5 kyu
+
+- [Large Factorials](https://github.com/svgaryaev/codewars/blob/master/5kyu/first-non-repeat-character.md)
 
 ## 6 kyu
 
