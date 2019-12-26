@@ -6,6 +6,10 @@
 
 В файле решения задачи перечислены все варианты ее решения от последнего к первому. Зачем так, когда есть git история? Подумал, что так будет нагляднее.
 
+## 2 kyu
+
+- [Evaluate mathematical expression](https://github.com/svgaryaev/codewars/blob/master/3kyu/evaluate-mathematical-expression.md)
+
 ## 3 kyu
 
 - [Defuse the bombs!](https://github.com/svgaryaev/codewars/blob/master/3kyu/defuse-the-bombs.md)
