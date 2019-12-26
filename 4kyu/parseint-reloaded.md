@@ -20,6 +20,9 @@ Additional Notes:
 
 ## Solution
 
+<details>
+<summary>Spoiler warning</summary>
+
 ```js
 function parseInt(string) {
     const digits = {
@@ -75,3 +78,5 @@ function parseInt(string) {
     return result;
 }
 ```
+
+</details>

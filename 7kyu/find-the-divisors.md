@@ -14,6 +14,9 @@ divisors(13); // should return "13 is prime"
 
 ## Solution
 
+<details>
+<summary>Spoiler warning</summary>
+
 ```js
 function divisors(num) {
     let res = [], n = 1;
@@ -25,3 +28,5 @@ function divisors(num) {
     return res.length ? res : num + ' is prime';
 };
 ```
+
+</details>

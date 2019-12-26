@@ -16,6 +16,9 @@ NOTES:
 
 ## Solution
 
+<details>
+<summary>Spoiler warning</summary>
+
 ```js
 function factorial(n) {
     if (n < 0) return null;
@@ -54,3 +57,5 @@ function factorial(n) {
     return acc.join('');
 }
 ```
+
+</details>

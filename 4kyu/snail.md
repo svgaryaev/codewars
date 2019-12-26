@@ -29,6 +29,9 @@ NOTE 2: The 0x0 (empty matrix) is represented as en empty array inside an array 
 
 ## Solution
 
+<details>
+<summary>Spoiler warning</summary>
+
 ```js
 function snail(arr) {
     const next = ((step = 0) => (res, arr) => {
@@ -53,3 +56,5 @@ function snail(arr) {
     return res;
 }
 ```
+
+</details>

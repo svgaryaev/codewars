@@ -58,6 +58,9 @@ NOTE: Both eval and Function are disabled. Same goes for String.match.
 
 ## Solution
 
+<details>
+<summary>Spoiler warning</summary>
+
 ### kinda cheating solutions
 
 ```js
@@ -97,3 +100,5 @@ const calc = expression => {
     return Number(expression);
 };
 ```
+
+</details>

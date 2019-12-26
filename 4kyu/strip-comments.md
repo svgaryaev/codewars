@@ -31,6 +31,9 @@ var result = solution("apples, pears # and bananas\ngrapes\nbananas !apples", ["
 
 ## Solution
 
+<details>
+<summary>Spoiler warning</summary>
+
 ```js
 function solution(input, markers) {
     return input.split('\n').map(line => {
@@ -41,3 +44,5 @@ function solution(input, markers) {
     }).join('\n');
 };
 ```
+
+</details>

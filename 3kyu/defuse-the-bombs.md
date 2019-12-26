@@ -8,6 +8,9 @@ Note: This is not an ordinary Kata, but more of a series of puzzles. The point i
 
 ## Solution
 
+<details>
+<summary>Spoiler warning</summary>
+
 ```js
 Bomb.diffuse( 42 );
 
@@ -44,3 +47,5 @@ Bomb.diffuse(42);
 Array.prototype.toString = function() { return this.reduce((acc, next) => acc += next, 0) }
 Bomb.diffuse('eWVz'); // shitty moment
 ```
+
+</details>

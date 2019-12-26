@@ -12,6 +12,9 @@ If a string contains all repeating characters, it should return an empty string 
 
 ## Solution
 
+<details>
+<summary>Spoiler warning</summary>
+
 ```js
 function firstNonRepeatingLetter(s) {
     for (const c of s) {
@@ -20,3 +23,5 @@ function firstNonRepeatingLetter(s) {
     return '';
 }
 ```
+
+</details>

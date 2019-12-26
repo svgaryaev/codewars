@@ -36,6 +36,9 @@ top_3_words("  //wont won't won't")
 
 ## Solution
 
+<details>
+<summary>Spoiler warning</summary>
+
 ```js
 function topThreeWords(text) {
     const words = {};
@@ -61,3 +64,5 @@ function topThreeWords(text) {
     return Object.entries(obj).sort((a, b) => b[1] - a[1]).map(entry => entry[0]).slice(0, 3);
 }
 ```
+
+</details>
