@@ -1,3 +1,5 @@
+[На главную](https://github.com/svgaryaev/codewars)
+
 ## Snail Sort
 
 Given an `n x n` array, return the array elements arranged from outermost elements to the middle element, traveling clockwise.
@@ -24,3 +26,30 @@ This image will illustrate things more clearly:
 
 NOTE: The idea is not sort the elements from the lowest value to the highest; the idea is to traverse the 2-d array in a clockwise snailshell pattern.
 NOTE 2: The 0x0 (empty matrix) is represented as en empty array inside an array `[[]]`.
+
+## Solution
+
+```js
+function snail(arr) {
+    const next = ((step = 0) => (res, arr) => {
+        switch (step++ % 4) {
+            case 0:
+                return res.push(...arr.shift());
+            case 1:
+                return arr.forEach(a => { res.push(a.pop()) });
+            case 2:
+                return res.push(...arr.pop().reverse());
+            case 3:
+                return arr.slice().reverse().forEach(a => { res.push(a.shift()) });
+        }
+    })();
+
+    const res = [];
+
+    while (arr.length > 0 && arr[0].length > 0) {
+        next(res, arr);
+    }
+
+    return res;
+}
+```

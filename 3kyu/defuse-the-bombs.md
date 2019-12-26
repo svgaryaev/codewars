@@ -1,4 +1,14 @@
-// Defuse all of the Bombs!
+[На главную](https://github.com/svgaryaev/codewars)
+
+## Defuse the bombs!
+
+There are a series of 10 bombs about to go off! Defuse them all! Simple, right?
+
+Note: This is not an ordinary Kata, but more of a series of puzzles. The point is to figure out what you are supposed to do, then how to do it. Instructions are intentionally left vague.
+
+## Solution
+
+```js
 Bomb.diffuse( 42 );
 
 Bomb.diffuse();
@@ -14,7 +24,8 @@ Bomb.diffuse();
 
 Bomb.diffuse('3.14159');
 
-Bomb.diffuse(new Date().setFullYear( new Date().getFullYear() - 4 ));
+const date = new Date();
+Bomb.diffuse(date.setFullYear(date.getFullYear() - 4));
 
 Bomb.diffuse(Object.freeze({ key: 43 }));
 
@@ -31,4 +42,5 @@ Bomb.diffuse(42);
 // console.log( Bomb.diffuse.toString() );
 
 Array.prototype.toString = function() { return this.reduce((acc, next) => acc += next, 0) }
-Bomb.diffuse('eWVz');
+Bomb.diffuse('eWVz'); // shitty moment
+```

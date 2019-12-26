@@ -1,3 +1,5 @@
+[На главную](https://github.com/svgaryaev/codewars)
+
 ## Most frequently used words in a text
 
 Write a function that, given a string of text (possibly with punctuation and line-breaks), returns an array of the top-3 most occurring words, in descending order of the number of occurrences.
@@ -31,3 +33,31 @@ top_3_words("  //wont won't won't")
 
 - Avoid creating an array whose memory footprint is roughly as big as the input text.
 - Avoid sorting the entire array of unique words.
+
+## Solution
+
+```js
+function topThreeWords(text) {
+    const words = {};
+    text.toLowerCase()
+        .replace(/(\w[\w']*)/g, match => {
+            words[match] ? words[match] += 1 : words[match] = 1;
+        })
+    return Object.entries(words).sort((a, b) => b[1] - a[1]).map(a => a[0]).slice(0, 3);
+}
+```
+
+```js
+function topThreeWords(text) {
+    const obj = text
+        .toLowerCase()
+        .replace(/[.,:/]| '/g,'')
+        .split(/[ \n]/)
+        .filter(word => word && word.length > 0)
+        .reduce((obj, word) => {
+            obj[word] ? obj[word] += 1 : obj[word] = 1;
+            return obj;
+        }, {});
+    return Object.entries(obj).sort((a, b) => b[1] - a[1]).map(entry => entry[0]).slice(0, 3);
+}
+```
