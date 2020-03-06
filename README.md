@@ -24,7 +24,7 @@
 
 ## 5 kyu
 
-- [Large Factorials](https://github.com/svgaryaev/codewars/blob/master/5kyu/first-non-repeat-character.md)
+- [First non-repeating character](https://github.com/svgaryaev/codewars/blob/master/5kyu/first-non-repeat-character.md)
 
 ## 6 kyu
 
