@@ -21,6 +21,7 @@
 - [parseInt() reloaded](https://github.com/svgaryaev/codewars/blob/master/4kyu/parseint-reloaded.md)
 - [Snail](https://github.com/svgaryaev/codewars/blob/master/4kyu/snail.md)
 - [Strip Comments](https://github.com/svgaryaev/codewars/blob/master/4kyu/strip-comments.md)
+- [Human readable duration format](https://github.com/svgaryaev/codewars/blob/master/4kyu/human-readable-duration-format.md)
 
 ## 5 kyu
 
