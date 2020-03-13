@@ -33,6 +33,7 @@
 - [Tribonacci Sequence](https://github.com/svgaryaev/codewars/blob/master/6kyu/tribonacci-sequence.md)
 - [Count the smiley faces!](https://github.com/svgaryaev/codewars/blob/master/6kyu/count-the-smiley-faces.md)
 - [Backspaces in string](https://github.com/svgaryaev/codewars/blob/master/6kyu/backspaces-in-string.md)
+- [Decode the Morse code](https://github.com/svgaryaev/codewars/blob/master/6kyu/decode-the-morse-code.md)
 
 ## 7 kyu
 
