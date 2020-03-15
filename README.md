@@ -22,6 +22,7 @@
 - [Snail](https://github.com/svgaryaev/codewars/blob/master/4kyu/snail.md)
 - [Strip Comments](https://github.com/svgaryaev/codewars/blob/master/4kyu/strip-comments.md)
 - [Human readable duration format](https://github.com/svgaryaev/codewars/blob/master/4kyu/human-readable-duration-format.md)
+- [Permutations](https://github.com/svgaryaev/codewars/blob/master/4kyu/permutations.md)
 
 ## 5 kyu
 
