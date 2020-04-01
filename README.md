@@ -28,6 +28,7 @@
 
 - [First non-repeating character](https://github.com/svgaryaev/codewars/blob/master/5kyu/first-non-repeat-character.md)
 - [Valid Parentheses](https://github.com/svgaryaev/codewars/blob/master/5kyu/valid-parentheses.md)
+- [Best travel](https://github.com/svgaryaev/codewars/blob/master/5kyu/best-travel.md)
 
 ## 6 kyu
 
