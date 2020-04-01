@@ -37,6 +37,7 @@
 - [Count the smiley faces!](https://github.com/svgaryaev/codewars/blob/master/6kyu/count-the-smiley-faces.md)
 - [Backspaces in string](https://github.com/svgaryaev/codewars/blob/master/6kyu/backspaces-in-string.md)
 - [Decode the Morse code](https://github.com/svgaryaev/codewars/blob/master/6kyu/decode-the-morse-code.md)
+- [Array to HTML table](https://github.com/svgaryaev/codewars/blob/master/6kyu/array-to-html-table.md)
 
 ## 7 kyu
 
