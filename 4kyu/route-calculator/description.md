@@ -36,10 +36,14 @@ calculate('1000$2.5$5+5-5+6$6') // '81'
 calculate('10-9p')              // '400: Bad request'
 ```
 
-###Further Notes - Parameters outside of this challenge:
+### Further Notes - Parameters outside of this challenge:
 
 Brackets e.g. 10*(1+2)  
 Square root, log, % or any other operators  
 Unary minus (10*-1)  
 Bad mathematical input (10**$10 or 5+5$)  
 You may have to deal with floats  
+
+## Solution
+
+[solution.js](solution.js)
