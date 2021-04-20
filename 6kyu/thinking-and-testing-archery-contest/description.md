@@ -2,6 +2,8 @@
 
 ## Thinking & Testing: Archery contest
 
+[origin](https://www.codewars.com/kata/56f4202199b3861b880013e0)
+
 No Story
 
 No Description

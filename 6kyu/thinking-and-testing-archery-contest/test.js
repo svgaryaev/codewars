@@ -1,13 +1,8 @@
+const assert = require('chai').assert;
 const testit = require('./solution');
 
-const Test = {
-    assertSimilar(fnRes, res) {
-        console.log(fnRes === res);
-    }
-}
-
 //I can shoot through 100 pieces of wood, and you?
-var woods=
+const woods =
     "─ ─ ─ ─ ─"                                 +"\n"+
     "　 　 　 　 　"                                 +"\n"+
     "─ ─ ─ ─ ─"                                 +"\n"+
@@ -17,107 +12,128 @@ var woods=
     "─ ─ ─ ─ ─"                                 +"\n"+
     "　 　 　 　 　"                                 +"\n"+
     "─ ─ ─ ─ ─"                                 +"\n"+
-    "　 　 　 　 　",
+    "　 　 　 　 　";
 // ▲ ▲ ▲ ▲ ▲
 // ║ ║ ║ ║ ║
 // S  H  O  O  T
-    shoot=[0];
-Test.assertSimilar(testit(woods,shoot), woods, "");
-shoot=[1];
-var answer=
-    "─ ─ ─ ─ ─"                                 +"\n"+
-    "　 　 　 　 　"                                 +"\n"+
-    "─ ─ ─ ─ ─"                                 +"\n"+
-    "　 　 　 　 　"                                 +"\n"+
-    "─ ─ ─ ─ ─"                                 +"\n"+
-    "　 　 　 　 　"                                 +"\n"+
-    "─ ─ ─ ─ ─"                                 +"\n"+
-    "　 　 　 　 　"                                 +"\n"+
-    "─ ─ ─ ─ ─"                                 +"\n"+
-    "│ 　 　 　 　";
-Test.assertSimilar(testit(woods,shoot), answer, "");
 
-shoot=[2],
-    answer=
-        "─ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "─ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "─ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "─ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "┼ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　";
-Test.assertSimilar(testit(woods,shoot), answer, "");
+let shoot, answer;
 
-shoot=[3],
-    answer=
-        "─ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "─ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "─ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "─ ─ ─ ─ ─"                                 +"\n"+
-        "│ 　 　 　 　"                                 +"\n"+
-        "╌ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　";
-Test.assertSimilar(testit(woods,shoot), answer, "");
+describe('6kyu Thinking & Testing: Archery contest', () => {
+    it('some', () => {
+        shoot=[0];
+        assert.equal(testit(woods,shoot), woods, "");
+    });
 
-shoot=[4],
-    answer=
-        "─ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "─ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "─ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "┼ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "╌ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　";
-Test.assertSimilar(testit(woods,shoot), answer, "");
+    it('some', () => {
+        shoot=[1];
+        answer =
+            "─ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "─ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "─ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "─ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "─ ─ ─ ─ ─"                                 +"\n"+
+            "│ 　 　 　 　";
+        assert.equal(testit(woods,shoot), answer, "");
+    });
 
-shoot=[10],
-    answer=
-        "┼ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "╌ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "╌ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "╌ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "╌ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　";
-Test.assertSimilar(testit(woods,shoot), answer, "");
+    it('some', () => {
+        shoot=[2];
+        answer=
+            "─ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "─ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "─ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "─ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "┼ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　";
+        assert.equal(testit(woods,shoot), answer, "");
+    });
 
-shoot=[100],
-    answer=
-        "╌ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "╌ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "╌ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "╌ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "╌ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　";
-Test.assertSimilar(testit(woods,shoot), answer, "");
+    it('some', () => {
+        shoot=[3];
+        answer=
+            "─ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "─ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "─ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "─ ─ ─ ─ ─"                                 +"\n"+
+            "│ 　 　 　 　"                                 +"\n"+
+            "╌ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　";
+        assert.equal(testit(woods,shoot), answer, "");
+    });
 
-shoot=[1,2,3,4,5],
-    answer=
-        "─ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "─ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 　"                                 +"\n"+
-        "─ ─ ─ ─ ─"                                 +"\n"+
-        "　 　 　 　 │"                                 +"\n"+
-        "─ ─ ─ ┼ ╌"                                 +"\n"+
-        "　 　 │ 　 　"                                 +"\n"+
-        "─ ┼ ╌ ╌ ╌"                                 +"\n"+
-        "│ 　 　 　 　";
-Test.assertSimilar(testit(woods,shoot), answer, "");
-//click "Submit" try more testcase...
+    it('some', () => {
+        shoot=[4];
+        answer=
+            "─ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "─ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "─ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "┼ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "╌ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　";
+        assert.equal(testit(woods,shoot), answer, "");
+    });
+
+    it('some', () => {
+        shoot=[10];
+        answer=
+            "┼ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "╌ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "╌ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "╌ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "╌ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　";
+        assert.equal(testit(woods,shoot), answer, "");
+    });
+
+    it('some', () => {
+        shoot=[100];
+        answer=
+            "╌ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "╌ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "╌ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "╌ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "╌ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　";
+        assert.equal(testit(woods,shoot), answer, "");
+    });
+
+    it('some', () => {
+        shoot=[1,2,3,4,5];
+        answer=
+            "─ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "─ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 　"                                 +"\n"+
+            "─ ─ ─ ─ ─"                                 +"\n"+
+            "　 　 　 　 │"                                 +"\n"+
+            "─ ─ ─ ┼ ╌"                                 +"\n"+
+            "　 　 │ 　 　"                                 +"\n"+
+            "─ ┼ ╌ ╌ ╌"                                 +"\n"+
+            "│ 　 　 　 　";
+        assert.equal(testit(woods,shoot), answer, "");
+    });
+});
