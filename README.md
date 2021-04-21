@@ -13,6 +13,7 @@
 ## 3 kyu
 
 - [Defuse the bombs!](https://github.com/svgaryaev/codewars/blob/master/3kyu/defuse-the-bombs.md)
+- [Calculator](https://github.com/svgaryaev/codewars/blob/master/3kyu/calculator/description.md)
 
 ## 4 kyu
 
