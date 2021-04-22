@@ -2,6 +2,8 @@
 
 ## Evaluate mathematical expression
 
+[origin](https://www.codewars.com/kata/52a78825cdfc2cfc87000005)
+
 Given a mathematical expression as a string you must return the result as a number.
 
 ### Numbers
@@ -58,47 +60,4 @@ NOTE: Both eval and Function are disabled. Same goes for String.match.
 
 ## Solution
 
-<details>
-<summary>Spoiler warning</summary>
-
-### kinda cheating solutions
-
-```js
-const calc = expression => {
-    const ev = (match, a, op, b) => {
-        a = +a;
-        b = +b;
-        switch (op) {
-            case '+': return a + b;
-            case '-': return a - b;
-            case '/': return a / b;
-            case '*': return a * b;
-        }
-    }
-
-    let re;
-    
-    while (!/^ *-?\w+\.?\w* *$/.exec(expression)) {
-        if ((re = /(-?)\( ?(-?\w+\.?\w*) ?\)/g).exec(expression)) {
-            expression = expression.replace(re, (match, sign, num) => sign ? -1 * num : num);
-            continue;
-        }
-        if ((re = /(-?)\( ?(-?\w+\.?\w*) ?([+-/*]) ?(-?\w+\.?\w*) ?\)/g).exec(expression)) {
-            expression = expression.replace(re, (match, sign, a, op, b) => (sign ? -1 : 1) * ev(match, a, op, b));
-            continue;
-        }
-        if ((re = /(-?\w+\.?\w*) ?([/*]) ?(-?\w+\.?\w*)/g).exec(expression)) {
-            expression = expression.replace(re, ev);
-            continue;
-        }
-        if ((re = /(-?\w+\.?\w*) ?([+-]) ?(-?\w+\.?\w*)/g).exec(expression)) {
-            expression = expression.replace(re, ev);
-            continue;
-        }
-    }
-    
-    return Number(expression);
-};
-```
-
-</details>
+[solution.js](solution.js)
