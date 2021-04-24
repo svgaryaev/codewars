@@ -25,6 +25,7 @@
 - [Human readable duration format](https://github.com/svgaryaev/codewars/blob/master/4kyu/human-readable-duration-format.md)
 - [Permutations](https://github.com/svgaryaev/codewars/blob/master/4kyu/permutations.md)
 - [Route Calculator](https://github.com/svgaryaev/codewars/blob/master/4kyu/route-calculator/description.md)
+- [Complex CSV Parser](https://github.com/svgaryaev/codewars/blob/master/4kyu/complex-csv-parser/description.md)
 
 ## 5 kyu
 
